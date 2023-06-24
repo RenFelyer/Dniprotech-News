@@ -1,0 +1,12 @@
+<svg height="100%" viewBox="0 0 75 100" fill="none"
+	xmlns="http://www.w3.org/2000/svg">
+	<rect y="75" width="25" height="25" rx="4" fill="#035F8E"/>
+	<rect y="50" width="25" height="25" rx="4" fill="#25AAE1"/>
+	<rect x="25" y="25" width="25" height="25" rx="4" fill="#25AAE1"/>
+	<path d="M50 4C50 1.79086 51.7909 0 54 0H71C73.2091 0 75 1.79086 75 4V21C75 23.2091 73.2091 25 71 25H54C51.7909 25 50 23.2091 50 21V4Z" fill="#25AAE1"/>
+	<rect x="25" y="75" width="25" height="25" rx="4" fill="#093864"/>
+	<rect x="50" y="75" width="25" height="25" rx="4" fill="#093864"/>
+	<rect x="50" y="50" width="25" height="25" rx="4" fill="#093864"/>
+	<rect x="25" y="50" width="25" height="25" rx="4" fill="#035F8E"/>
+	<rect x="50" y="25" width="25" height="25" rx="4" fill="#035F8E"/>
+</svg>

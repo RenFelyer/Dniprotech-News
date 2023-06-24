@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	@apply box-border;
+}
+
+html, body, #root {
+	height: 100%;
+	@apply bg-white;
+	@apply scroll-hidden;
+}
+
+#root {
+	@apply flex flex-col
+}
+
+.scroll-hidden::-webkit-scrollbar {
+	width: 0;
+  }
+
+.custom-scrollbar {
+	@apply overflow-x-auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+	height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+	@apply bg-info/70
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+	@apply bg-lights
+}
+.active {
+	@apply bg-balance
+  }

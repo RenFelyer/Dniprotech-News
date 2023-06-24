@@ -1,0 +1,111 @@
+2023-06-22 00:11:42.854 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 00:11:42.990 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7b420819
+2023-06-22 00:11:42.993 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 00:11:43.650 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 00:11:43.654 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 00:11:43.657 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 00:11:43.671 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-22 00:53:59.879 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 00:54:00.047 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-22 00:54:00.051 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 00:54:00.709 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 00:54:00.712 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 00:54:00.714 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 00:54:00.783 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-22 01:05:58.742 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 01:05:58.894 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-22 01:05:58.897 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 01:05:59.486 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 01:05:59.489 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 01:05:59.492 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 01:05:59.522 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-22 01:10:45.383 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 01:10:45.535 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-22 01:10:45.538 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 01:10:46.259 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 01:10:46.261 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 01:10:46.264 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 01:10:46.338 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-22 01:12:16.231 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 01:12:16.368 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-22 01:12:16.372 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 01:12:17.015 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 01:12:17.018 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 01:12:17.022 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 01:12:17.066 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-22 01:12:53.654 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.2, repliedAddress: jdbc.tag.delete
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-22 01:16:32.885 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 01:16:33.019 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-22 01:16:33.022 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 01:16:33.587 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 01:16:33.589 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 01:16:33.592 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 01:16:33.604 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-22 02:22:29.278 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.53, repliedAddress: jdbc.tag.delete
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-22 02:52:19.124 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 02:52:19.254 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-22 02:52:19.259 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 02:52:19.902 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 02:52:19.905 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 02:52:19.909 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 02:52:19.986 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-22 02:53:51.586 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 02:53:51.788 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-22 02:53:51.796 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 02:53:52.544 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 02:53:52.549 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 02:53:52.552 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 02:53:52.594 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-22 02:54:56.493 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 02:54:56.634 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-22 02:54:56.637 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 02:54:57.293 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 02:54:57.296 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 02:54:57.300 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 02:54:57.307 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-22 11:58:05.790 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h8m8s930ms254µs200ns).
+2023-06-22 12:45:02.186 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-22 12:45:02.321 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-22 12:45:02.325 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-22 12:45:02.914 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-22 12:45:02.917 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-22 12:45:02.919 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-22 12:45:02.940 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393

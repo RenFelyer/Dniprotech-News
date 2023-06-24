@@ -1,0 +1,1862 @@
+2023-06-23 10:32:20.463 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19h27m17s773ms834µs600ns).
+2023-06-23 12:09:11.047 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 12:09:11.177 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 12:09:11.181 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 12:09:11.752 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 12:09:11.755 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 12:09:11.758 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 12:09:11.773 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 12:13:07.767 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 12:13:07.881 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 12:13:07.885 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 12:13:08.431 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 12:13:08.433 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 12:13:08.435 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 12:13:08.464 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 12:14:00.595 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 12:14:00.766 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 12:14:00.773 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 12:14:01.534 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 12:14:01.540 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 12:14:01.544 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 12:14:01.589 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 12:40:37.134 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 12:40:37.262 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 12:40:37.265 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 12:40:37.818 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 12:40:37.821 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 12:40:37.823 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 12:40:37.856 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 12:43:45.198 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 12:43:45.316 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 12:43:45.319 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 12:43:45.877 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 12:43:45.880 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 12:43:45.883 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 12:43:45.910 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 12:45:23.554 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 12:45:23.679 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 12:45:23.682 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 12:45:24.225 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 12:45:24.228 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 12:45:24.230 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 12:45:24.259 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 12:48:48.195 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 12:48:48.329 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 12:48:48.332 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 12:48:48.888 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 12:48:48.891 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 12:48:48.895 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 12:48:48.912 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 12:59:29.228 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 12:59:29.386 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 12:59:29.390 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 12:59:30.045 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 12:59:30.047 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 12:59:30.050 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 12:59:30.131 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 12:59:35.054 [vert.x-eventloop-thread-0] ERROR io.vertx.core.impl.ContextBase - Unhandled exception
+java.lang.ClassCastException: class java.lang.String cannot be cast to class io.vertx.core.json.JsonObject (java.lang.String is in module java.base of loader 'bootstrap'; io.vertx.core.json.JsonObject is in unnamed module of loader 'app')
+	at ua.sergienko.model.ArticleVerticle.deleteArticle(ArticleVerticle.java:137)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 12:59:55.196 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 12:59:55.320 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 12:59:55.324 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 12:59:55.935 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 12:59:55.938 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 12:59:55.941 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 12:59:55.984 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 13:15:16.658 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 13:15:16.812 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 13:15:16.816 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 13:15:17.410 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 13:15:17.412 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 13:15:17.415 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 13:15:17.437 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 13:46:27.969 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 13:46:28.084 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 13:46:28.086 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 13:46:28.675 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 13:46:28.678 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 13:46:28.681 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 13:46:28.707 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 13:59:13.772 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: No handlers for address jdbc.communities.create
+	at io.vertx.core.eventbus.impl.EventBusImpl.deliverMessageLocally(EventBusImpl.java:384)
+	at io.vertx.core.eventbus.impl.EventBusImpl.sendLocally(EventBusImpl.java:341)
+	at io.vertx.core.eventbus.impl.EventBusImpl.sendOrPub(EventBusImpl.java:329)
+	at io.vertx.core.eventbus.impl.OutboundDeliveryContext.execute(OutboundDeliveryContext.java:109)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.OutboundDeliveryContext.next(OutboundDeliveryContext.java:28)
+	at io.vertx.core.eventbus.impl.EventBusImpl.sendOrPubInternal(EventBusImpl.java:422)
+	at io.vertx.core.eventbus.impl.EventBusImpl.sendOrPubInternal(EventBusImpl.java:428)
+	at io.vertx.core.eventbus.impl.EventBusImpl.request(EventBusImpl.java:127)
+	at io.vertx.core.eventbus.EventBus.request(EventBus.java:92)
+	at ua.sergienko.service.AdminService.createArticle(AdminService.java:35)
+	at io.vertx.ext.web.Route.lambda$respond$1(Route.java:339)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:140)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.doEnd(BodyHandlerImpl.java:361)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.uploadEnded(BodyHandlerImpl.java:327)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.lambda$null$0(BodyHandlerImpl.java:256)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.SucceededFuture.addListener(SucceededFuture.java:88)
+	at io.vertx.core.impl.future.Composition.onSuccess(Composition.java:43)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.core.impl.future.PromiseImpl.onSuccess(PromiseImpl.java:49)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 13:59:48.615 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 13:59:48.765 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 13:59:48.771 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 13:59:49.371 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 13:59:49.374 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 13:59:49.377 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 13:59:49.410 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:07:48.352 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:07:48.492 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:07:48.497 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:07:49.114 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:07:49.117 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:07:49.120 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:07:49.154 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:12:00.892 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:12:01.031 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:12:01.034 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:12:01.756 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:12:01.759 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:12:01.761 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:12:01.777 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:12:11.217 [vert.x-eventloop-thread-0] ERROR io.vertx.core.impl.ContextBase - Unhandled exception
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.ImmutableCollections.listFromArray(ImmutableCollections.java:190)
+	at java.base/java.util.List.of(List.java:1047)
+	at ua.sergienko.GenericVerticle.preparedQuery(GenericVerticle.java:75)
+	at ua.sergienko.model.ArticleVerticle.updateArticle(ArticleVerticle.java:130)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:12:41.215 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.5, repliedAddress: jdbc.article.update
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:12:46.998 [vert.x-eventloop-thread-0] ERROR io.vertx.core.impl.ContextBase - Unhandled exception
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.ImmutableCollections.listFromArray(ImmutableCollections.java:190)
+	at java.base/java.util.List.of(List.java:1047)
+	at ua.sergienko.GenericVerticle.preparedQuery(GenericVerticle.java:75)
+	at ua.sergienko.model.ArticleVerticle.updateArticle(ArticleVerticle.java:130)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:13:16.998 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.7, repliedAddress: jdbc.article.update
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:14:32.682 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:14:32.808 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:14:32.812 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:14:33.360 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:14:33.363 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:14:33.365 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:14:33.402 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:19:22.879 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The image was not detected!
+2023-06-23 14:21:00.446 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.StringIndexOutOfBoundsException: Range [-1, 4) out of bounds for length 4
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4602)
+	at java.base/java.lang.String.substring(String.java:2715)
+	at java.base/java.lang.String.substring(String.java:2688)
+	at ua.sergienko.service.AdminService.workingArticle(AdminService.java:74)
+	at ua.sergienko.service.AdminService.updateArticle(AdminService.java:24)
+	at io.vertx.ext.web.Route.lambda$respond$1(Route.java:339)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:140)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.doEnd(BodyHandlerImpl.java:361)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.uploadEnded(BodyHandlerImpl.java:327)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.lambda$null$0(BodyHandlerImpl.java:256)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.SucceededFuture.addListener(SucceededFuture.java:88)
+	at io.vertx.core.impl.future.Composition.onSuccess(Composition.java:43)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.core.impl.future.PromiseImpl.onSuccess(PromiseImpl.java:49)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:21:11.032 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:21:11.164 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:21:11.169 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:21:11.744 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:21:11.748 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:21:11.750 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:21:11.782 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:21:15.082 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.StringIndexOutOfBoundsException: Range [-1, 4) out of bounds for length 4
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4602)
+	at java.base/java.lang.String.substring(String.java:2715)
+	at java.base/java.lang.String.substring(String.java:2688)
+	at ua.sergienko.service.AdminService.workingArticle(AdminService.java:74)
+	at ua.sergienko.service.AdminService.updateArticle(AdminService.java:24)
+	at io.vertx.ext.web.Route.lambda$respond$1(Route.java:339)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:140)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.doEnd(BodyHandlerImpl.java:361)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.uploadEnded(BodyHandlerImpl.java:327)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.lambda$null$0(BodyHandlerImpl.java:256)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.SucceededFuture.addListener(SucceededFuture.java:88)
+	at io.vertx.core.impl.future.Composition.onSuccess(Composition.java:43)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.core.impl.future.PromiseImpl.onSuccess(PromiseImpl.java:49)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:23:22.797 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:23:22.923 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:23:22.926 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:23:23.526 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:23:23.529 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:23:23.532 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:23:23.567 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:24:17.020 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:24:17.159 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:24:17.162 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:24:17.745 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:24:17.748 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:24:17.751 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:24:17.785 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:24:22.483 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.StringIndexOutOfBoundsException: Range [-1, 4) out of bounds for length 4
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4602)
+	at java.base/java.lang.String.substring(String.java:2715)
+	at java.base/java.lang.String.substring(String.java:2688)
+	at ua.sergienko.service.AdminService.workingArticle(AdminService.java:74)
+	at ua.sergienko.service.AdminService.updateArticle(AdminService.java:24)
+	at io.vertx.ext.web.Route.lambda$respond$1(Route.java:339)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:140)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.doEnd(BodyHandlerImpl.java:361)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.uploadEnded(BodyHandlerImpl.java:327)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.lambda$null$0(BodyHandlerImpl.java:256)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.SucceededFuture.addListener(SucceededFuture.java:88)
+	at io.vertx.core.impl.future.Composition.onSuccess(Composition.java:43)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.core.impl.future.PromiseImpl.onSuccess(PromiseImpl.java:49)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:37:29.810 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:37:29.937 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:37:29.942 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:37:30.553 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:37:30.557 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:37:30.560 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:37:30.586 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:38:26.002 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The image was not detected!
+2023-06-23 14:38:48.492 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.1, repliedAddress: jdbc.article.update
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:38:52.780 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The image was not detected!
+2023-06-23 14:39:52.215 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:39:52.335 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:39:52.339 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:39:52.902 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:39:52.906 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:39:52.908 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:39:52.926 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:40:01.467 [vert.x-eventloop-thread-0] ERROR io.vertx.core.impl.ContextBase - Unhandled exception
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.ImmutableCollections.listFromArray(ImmutableCollections.java:190)
+	at java.base/java.util.List.of(List.java:1047)
+	at ua.sergienko.GenericVerticle.preparedQuery(GenericVerticle.java:75)
+	at ua.sergienko.model.ArticleVerticle.updateArticle(ArticleVerticle.java:130)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:40:31.463 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.1, repliedAddress: jdbc.article.update
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:40:40.015 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:40:40.132 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:40:40.137 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:40:40.688 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:40:40.691 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:40:40.693 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:40:40.729 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:41:12.568 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.1, repliedAddress: jdbc.article.update
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:46:55.860 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:46:56.011 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:46:56.015 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:46:56.625 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:46:56.628 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:46:56.630 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:46:56.662 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:47:36.206 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.5, repliedAddress: jdbc.article.update
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:50:01.322 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:50:01.454 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:50:01.456 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:50:02.043 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:50:02.046 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:50:02.049 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:50:02.061 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:51:18.159 [vert.x-eventloop-thread-0] ERROR io.vertx.core.impl.ContextBase - Unhandled exception
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.ImmutableCollections$List12.<init>(ImmutableCollections.java:564)
+	at java.base/java.util.List.of(List.java:1045)
+	at ua.sergienko.GenericVerticle.preparedQuery(GenericVerticle.java:75)
+	at ua.sergienko.model.ArticleVerticle.pictureArticle(ArticleVerticle.java:141)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:51:18.161 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Failed to create an article in the database
+2023-06-23 14:51:18.163 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=3073) Field 'picture' doesn't have a default value
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$22(ArticleVerticle.java:110)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:52:51.135 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:52:51.258 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:52:51.261 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:52:51.835 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:52:51.838 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:52:51.840 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:52:51.865 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:52:54.706 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Failed to create an article in the database
+2023-06-23 14:52:54.712 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=3083) Field 'picture' doesn't have a default value
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$22(ArticleVerticle.java:110)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:55:13.021 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:55:13.148 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:55:13.152 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:55:13.748 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 14:55:13.812 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:55:13.831 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:55:13.864 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:56:03.811 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: undefined
+2023-06-23 14:56:03.818 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 14:59:31.089 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 14:59:31.219 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 14:59:31.222 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 14:59:31.838 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 14:59:31.841 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 14:59:31.844 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 14:59:31.868 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 15:00:17.045 [vert.x-eventloop-thread-0] ERROR io.vertx.core.impl.ContextBase - Unhandled exception
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.ImmutableCollections$List12.<init>(ImmutableCollections.java:564)
+	at java.base/java.util.List.of(List.java:1045)
+	at ua.sergienko.GenericVerticle.preparedQuery(GenericVerticle.java:75)
+	at ua.sergienko.model.ArticleVerticle.pictureArticle(ArticleVerticle.java:141)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:00:47.045 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.4, repliedAddress: jdbc.article.picture
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:01:58.299 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 15:01:58.412 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 15:01:58.415 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 15:01:59.006 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 15:01:59.010 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 15:01:59.012 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 15:01:59.048 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 15:02:26.030 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 15:02:26.156 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 15:02:26.158 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 15:02:26.794 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 15:02:26.797 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 15:02:26.799 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 15:02:26.830 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 15:02:29.605 [vert.x-eventloop-thread-0] ERROR io.vertx.core.impl.ContextBase - Unhandled exception
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.ImmutableCollections$List12.<init>(ImmutableCollections.java:564)
+	at java.base/java.util.List.of(List.java:1045)
+	at ua.sergienko.GenericVerticle.preparedQuery(GenericVerticle.java:75)
+	at ua.sergienko.model.ArticleVerticle.pictureArticle(ArticleVerticle.java:141)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:02:59.609 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.1, repliedAddress: jdbc.article.picture
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:35:32.612 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 15:35:32.735 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 15:35:32.737 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 15:35:33.284 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 15:35:33.287 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 15:35:33.290 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 15:35:33.309 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 15:35:50.886 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: undefined
+2023-06-23 15:35:50.894 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:37:16.648 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 15:37:16.783 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 15:37:16.788 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 15:37:17.496 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 15:37:17.499 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 15:37:17.502 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 15:37:17.551 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 15:37:27.952 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: undefined
+2023-06-23 15:37:28.253 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:37:50.166 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 15:37:50.286 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 15:37:50.289 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 15:37:50.863 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 15:37:50.866 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 15:37:50.869 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 15:37:50.884 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 15:37:53.095 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: undefined
+2023-06-23 15:37:53.103 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:39:10.464 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 15:39:10.626 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 15:39:10.631 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 15:39:11.344 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 15:39:11.347 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 15:39:11.349 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 15:39:11.379 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 15:39:14.950 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: undefined
+2023-06-23 15:39:15.239 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:41:38.267 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 15:41:38.388 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 15:41:38.392 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 15:41:38.959 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 15:41:38.962 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 15:41:38.964 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 15:41:38.985 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 15:42:52.586 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 789
+2023-06-23 15:42:52.594 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:45:59.443 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: undefined
+2023-06-23 15:45:59.444 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:46:09.410 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: undefined
+2023-06-23 15:46:09.411 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:46:49.840 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: undefined
+2023-06-23 15:46:49.841 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:47:13.840 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: undefined
+2023-06-23 15:47:13.841 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:47:31.269 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 789
+2023-06-23 15:47:31.270 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:48:12.285 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 789
+2023-06-23 15:48:12.285 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:48:21.221 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 789
+2023-06-23 15:48:21.224 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:48:51.151 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 789
+2023-06-23 15:48:51.151 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:49:11.431 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 789
+2023-06-23 15:49:11.432 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:49:13.936 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 789
+2023-06-23 15:49:13.938 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:49:35.259 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 789
+2023-06-23 15:49:35.260 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:49:42.132 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 54
+2023-06-23 15:49:42.133 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:50:20.653 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 897
+2023-06-23 15:50:20.654 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:51:00.797 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 5
+2023-06-23 15:51:00.798 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 15:51:06.039 [vert.x-eventloop-thread-0] WARN  ua.sergienko.model.ArticleVerticle - Unable to find the article using the id: 897
+2023-06-23 15:51:06.040 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Index 0 out of bounds for length 0
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.ArticleVerticle.lambda$16(ArticleVerticle.java:49)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:37)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 16:17:50.430 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 16:17:50.552 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 16:17:50.555 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 16:17:51.103 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 16:17:51.105 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 16:17:51.108 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 16:17:51.134 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:14:19.408 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:14:19.548 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:14:19.552 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:14:20.161 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:14:20.164 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:14:20.167 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:14:20.211 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:16:28.249 [vert.x-eventloop-thread-1] ERROR io.vertx.core.impl.ContextBase - Unhandled exception
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.ImmutableCollections$List12.<init>(ImmutableCollections.java:556)
+	at java.base/java.util.List.of(List.java:1043)
+	at ua.sergienko.GenericVerticle.preparedQuery(GenericVerticle.java:75)
+	at ua.sergienko.model.TagVerticle.createTag(TagVerticle.java:74)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 18:16:58.250 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.5, repliedAddress: jdbc.tag.create
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 18:17:39.915 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:17:40.044 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:17:40.046 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:17:40.625 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:17:40.628 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:17:40.630 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:17:40.668 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:17:46.527 [vert.x-eventloop-thread-1] WARN  ua.sergienko.model.TagVerticle - failed to created tags
+2023-06-23 18:17:46.531 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=3256) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Акула'' at line 1
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.TagVerticle.lambda$12(TagVerticle.java:76)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 18:18:56.903 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:18:57.032 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:18:57.035 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:18:57.625 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:18:57.628 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:18:57.632 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:18:57.660 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:19:02.684 [vert.x-eventloop-thread-1] WARN  ua.sergienko.model.TagVerticle - failed to created tags
+2023-06-23 18:19:02.688 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=3266) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''?????'' at line 1
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.TagVerticle.lambda$12(TagVerticle.java:76)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 18:19:46.279 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:19:46.398 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:19:46.402 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:19:47.000 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:19:47.004 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:19:47.008 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:19:47.042 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:19:49.466 [vert.x-eventloop-thread-1] WARN  ua.sergienko.model.TagVerticle - failed to created tags
+2023-06-23 18:19:49.471 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=3276) Could not set parameter at position 1 (values was '?????')
+Query - conn:3276(M)  - "INSERT INTO tags (content) VALUES '?'"
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.TagVerticle.lambda$12(TagVerticle.java:76)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 18:20:51.542 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:20:51.673 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:20:51.677 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:20:52.240 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:20:52.243 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:20:52.245 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:20:52.265 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:20:53.184 [vert.x-eventloop-thread-1] WARN  ua.sergienko.model.TagVerticle - failed to created tags
+2023-06-23 18:20:53.190 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=3286) Could not set parameter at position 1 (values was 'Акула')
+Query - conn:3286(M)  - "INSERT INTO tags (content) VALUES '?'"
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.model.TagVerticle.lambda$12(TagVerticle.java:77)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-23 18:21:47.336 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:21:47.455 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:21:47.459 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:21:48.000 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:21:48.003 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:21:48.005 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:21:48.047 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:23:26.324 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:23:26.451 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:23:26.455 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:23:27.040 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:23:27.043 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:23:27.045 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:23:27.074 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:30:58.278 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:30:58.410 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:30:58.413 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:30:58.968 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:30:58.971 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:30:58.973 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:30:59.000 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:41:41.453 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:41:41.583 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:41:41.587 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:41:42.146 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:41:42.149 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:41:42.152 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:41:42.177 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-23 18:44:50.627 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-23 18:44:50.781 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5ddf0d24
+2023-06-23 18:44:50.785 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-23 18:44:51.567 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'articles' is present in the database
+2023-06-23 18:44:51.569 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'tags' is present in the database
+2023-06-23 18:44:51.572 [vert.x-eventloop-thread-2] INFO  ua.sergienko.verticle.JdbcVerticle - Table 'article_tag' is present in the database
+2023-06-23 18:44:51.608 [vert.x-eventloop-thread-3] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393

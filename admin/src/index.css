@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.custom-scrollbar {
+		@apply overflow-y-scroll;
+	}
+
+	.custom-scrollbar::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	.custom-scrollbar::-webkit-scrollbar-track {
+		@apply bg-lights
+	}
+	
+	.custom-scrollbar::-webkit-scrollbar-thumb {
+		@apply bg-dark/20
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	@apply box-border;
+}
+
+html, body, #root {
+	height: 100%;
+	@apply bg-white;
+}
+
+#root {
+	@apply flex md:flex-row flex-col gap-2 max-w-screen-lg mx-auto;
+}

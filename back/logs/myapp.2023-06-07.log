@@ -1,0 +1,548 @@
+2023-06-07 00:04:12.051 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 00:04:12.167 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@31e4bb20
+2023-06-07 00:04:12.170 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 00:04:12.651 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 00:04:57.113 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - {"id":"102453992048376596587","email":"filllmaster95@gmail.com","verified_email":true,"name":"Рен Фельэр","given_name":"Рен Фельэр","picture":"https://lh3.googleusercontent.com/a/AAcHTte3F5m9J8JxJ-KNKcMhWbj_3JVxaL535PnnGuEYEQ=s96-c","locale":"ru"}
+2023-06-07 00:06:03.537 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - {"id":"102841837515464447175","email":"viktoria2002.vf86@gmail.com","verified_email":true,"name":"Thai Cat","given_name":"Thai Cat","picture":"https://lh3.googleusercontent.com/a/AAcHTte6dhVRYPi_g1ofrVLNJEuOHfViE2o_enYjk0TNjg=s96-c","locale":"ru"}
+2023-06-07 02:24:20.689 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 02:24:20.804 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 02:24:20.807 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 02:24:21.318 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:09:22.074 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:09:22.187 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:09:22.190 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:09:22.717 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - {"accessToken":{"iat":1686096562},"iat":1686096562,"rootClaim":"accessToken"}
+2023-06-07 03:09:23.019 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:09:39.482 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:09:39.600 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:09:39.605 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:09:40.119 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - {"accessToken":{"asd":"dasfsd","iat":1686096579},"iat":1686096579,"rootClaim":"accessToken"}
+2023-06-07 03:09:40.437 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:10:44.978 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:10:45.091 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:10:45.095 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:10:45.625 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhc2QiOiJkYXNmc2QiLCJpYXQiOjE2ODYwOTY2NDV9.b0sNpLiOAkZIHEXSOOda4VAvJJwgNYtj-d-D5lq7pBU","asd":"dasfsd"}
+2023-06-07 03:10:45.912 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:15:55.444 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:15:55.591 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:15:55.595 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:15:56.137 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:16:12.997 [vert.x-eventloop-thread-0] WARN  ua.sergienko.verticle.RestVerticle - io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f6170692f736f636b20485454502f312e310d0a486f73743a2079676764726173696c2e776562736974653a383339330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e30202857696e646f7773204e542031302e303b2057696e36343b2078363429204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3131342e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174650d0a4163636570742d4c616e67756167653a2072752d52552c72753b713d302e392c656e3b713d302e382c7a682d434e3b713d302e372c7a683b713d302e360d0a436f6f6b69653a20675f73746174653d7b22695f6c223a307d0d0a0d0a
+2023-06-07 03:16:14.043 [vert.x-eventloop-thread-0] WARN  ua.sergienko.verticle.RestVerticle - io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f6170692f736f636b20485454502f312e310d0a486f73743a2079676764726173696c2e776562736974653a383339330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a43616368652d436f6e74726f6c3a206d61782d6167653d300d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e30202857696e646f7773204e542031302e303b2057696e36343b2078363429204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3131342e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174650d0a4163636570742d4c616e67756167653a2072752d52552c72753b713d302e392c656e3b713d302e382c7a682d434e3b713d302e372c7a683b713d302e360d0a436f6f6b69653a20675f73746174653d7b22695f6c223a307d0d0a0d0a
+2023-06-07 03:16:14.048 [vert.x-eventloop-thread-0] WARN  ua.sergienko.verticle.RestVerticle - io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f6170692f736f636b20485454502f312e310d0a486f73743a2079676764726173696c2e776562736974653a383339330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a43616368652d436f6e74726f6c3a206d61782d6167653d300d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e30202857696e646f7773204e542031302e303b2057696e36343b2078363429204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3131342e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174650d0a4163636570742d4c616e67756167653a2072752d52552c72753b713d302e392c656e3b713d302e382c7a682d434e3b713d302e372c7a683b713d302e360d0a436f6f6b69653a20675f73746174653d7b22695f6c223a307d0d0a0d0a
+2023-06-07 03:16:14.052 [vert.x-eventloop-thread-0] WARN  ua.sergienko.verticle.RestVerticle - io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f6170692f736f636b20485454502f312e310d0a486f73743a2079676764726173696c2e776562736974653a383339330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a43616368652d436f6e74726f6c3a206d61782d6167653d300d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e30202857696e646f7773204e542031302e303b2057696e36343b2078363429204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3131342e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174650d0a4163636570742d4c616e67756167653a2072752d52552c72753b713d302e392c656e3b713d302e382c7a682d434e3b713d302e372c7a683b713d302e360d0a436f6f6b69653a20675f73746174653d7b22695f6c223a307d0d0a0d0a
+2023-06-07 03:16:19.075 [vert.x-eventloop-thread-0] WARN  ua.sergienko.verticle.RestVerticle - io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f6170692f736f636b20485454502f312e310d0a486f73743a2079676764726173696c2e776562736974653a383339330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a43616368652d436f6e74726f6c3a206d61782d6167653d300d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e30202857696e646f7773204e542031302e303b2057696e36343b2078363429204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3131342e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174650d0a4163636570742d4c616e67756167653a2072752d52552c72753b713d302e392c656e3b713d302e382c7a682d434e3b713d302e372c7a683b713d302e360d0a436f6f6b69653a20675f73746174653d7b22695f6c223a307d0d0a0d0a
+2023-06-07 03:16:19.079 [vert.x-eventloop-thread-0] WARN  ua.sergienko.verticle.RestVerticle - io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f6170692f736f636b20485454502f312e310d0a486f73743a2079676764726173696c2e776562736974653a383339330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a43616368652d436f6e74726f6c3a206d61782d6167653d300d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e30202857696e646f7773204e542031302e303b2057696e36343b2078363429204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3131342e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174650d0a4163636570742d4c616e67756167653a2072752d52552c72753b713d302e392c656e3b713d302e382c7a682d434e3b713d302e372c7a683b713d302e360d0a436f6f6b69653a20675f73746174653d7b22695f6c223a307d0d0a0d0a
+2023-06-07 03:16:19.085 [vert.x-eventloop-thread-0] WARN  ua.sergienko.verticle.RestVerticle - io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f6170692f736f636b20485454502f312e310d0a486f73743a2079676764726173696c2e776562736974653a383339330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a43616368652d436f6e74726f6c3a206d61782d6167653d300d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e30202857696e646f7773204e542031302e303b2057696e36343b2078363429204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3131342e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174650d0a4163636570742d4c616e67756167653a2072752d52552c72753b713d302e392c656e3b713d302e382c7a682d434e3b713d302e372c7a683b713d302e360d0a436f6f6b69653a20675f73746174653d7b22695f6c223a307d0d0a0d0a
+2023-06-07 03:16:52.583 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:16:52.690 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:16:52.693 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:16:53.219 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:16:55.314 [vert.x-eventloop-thread-0] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.IllegalStateException: Request must have a content-type header to decode a multipart request
+	at io.vertx.core.http.impl.Http2ServerRequest.setExpectMultipart(Http2ServerRequest.java:421)
+	at io.vertx.core.http.impl.HttpServerRequestWrapper.setExpectMultipart(HttpServerRequestWrapper.java:254)
+	at ua.sergienko.verticle.RestVerticle.lambda$0(RestVerticle.java:47)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:204)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:41)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:68)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:37)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.http.impl.Http2ServerRequest.dispatch(Http2ServerRequest.java:108)
+	at io.vertx.core.http.impl.Http2ServerStream.onHeaders(Http2ServerStream.java:111)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:171)
+	at io.vertx.core.http.impl.Http2ConnectionBase.onHeadersRead(Http2ConnectionBase.java:208)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:44)
+	at io.netty.handler.codec.http2.Http2FrameListenerDecorator.onHeadersRead(Http2FrameListenerDecorator.java:48)
+	at io.netty.handler.codec.http2.Http2EmptyDataFrameListener.onHeadersRead(Http2EmptyDataFrameListener.java:63)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onHeadersRead(DefaultHttp2ConnectionDecoder.java:409)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader$1.processFragment(DefaultHttp2FrameReader.java:450)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readHeadersFrame(DefaultHttp2FrameReader.java:457)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:253)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:159)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:173)
+	at io.netty.handler.codec.http2.DecoratingHttp2ConnectionDecoder.decodeFrame(DecoratingHttp2ConnectionDecoder.java:63)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:393)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:453)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.vertx.core.http.impl.VertxHttp2ConnectionHandler.channelRead(VertxHttp2ConnectionHandler.java:416)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 03:17:12.659 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:17:12.774 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:17:12.778 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:17:13.290 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:19:31.896 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:19:32.007 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:19:32.010 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:19:32.537 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:19:35.207 [vert.x-eventloop-thread-0] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.IllegalStateException: Request must have a content-type header to decode a multipart request
+	at io.vertx.core.http.impl.Http2ServerRequest.setExpectMultipart(Http2ServerRequest.java:421)
+	at io.vertx.core.http.impl.HttpServerRequestWrapper.setExpectMultipart(HttpServerRequestWrapper.java:254)
+	at ua.sergienko.verticle.RestVerticle.lambda$0(RestVerticle.java:47)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:204)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:41)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:68)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:37)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.http.impl.Http2ServerRequest.dispatch(Http2ServerRequest.java:108)
+	at io.vertx.core.http.impl.Http2ServerStream.onHeaders(Http2ServerStream.java:111)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:171)
+	at io.vertx.core.http.impl.Http2ConnectionBase.onHeadersRead(Http2ConnectionBase.java:208)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:44)
+	at io.netty.handler.codec.http2.Http2FrameListenerDecorator.onHeadersRead(Http2FrameListenerDecorator.java:48)
+	at io.netty.handler.codec.http2.Http2EmptyDataFrameListener.onHeadersRead(Http2EmptyDataFrameListener.java:63)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onHeadersRead(DefaultHttp2ConnectionDecoder.java:409)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader$1.processFragment(DefaultHttp2FrameReader.java:450)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readHeadersFrame(DefaultHttp2FrameReader.java:457)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:253)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:159)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:173)
+	at io.netty.handler.codec.http2.DecoratingHttp2ConnectionDecoder.decodeFrame(DecoratingHttp2ConnectionDecoder.java:63)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:393)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:453)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.vertx.core.http.impl.VertxHttp2ConnectionHandler.channelRead(VertxHttp2ConnectionHandler.java:416)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 03:21:45.678 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:21:45.786 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:21:45.789 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:21:46.317 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:22:04.346 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:22:04.454 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:22:04.457 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:22:04.957 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 03:22:21.140 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 03:22:21.250 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d3ba765
+2023-06-07 03:22:21.253 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 03:22:21.753 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 04:14:38.209 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:14:38.308 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@25bc0606
+2023-06-07 04:14:38.311 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:14:38.790 [vert.x-eventloop-thread-0] ERROR ua.sergienko.service.RouterService - java.net.BindException: Address already in use: bind
+2023-06-07 04:15:55.302 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:15:55.406 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@25bc0606
+2023-06-07 04:15:55.408 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:15:55.852 [vert.x-eventloop-thread-0] ERROR ua.sergienko.service.RouterService - java.net.BindException: Address already in use: bind
+2023-06-07 04:16:49.895 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:16:49.991 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@25bc0606
+2023-06-07 04:16:49.994 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:16:50.451 [vert.x-eventloop-thread-0] ERROR ua.sergienko.service.RouterService - java.net.BindException: Address already in use: bind
+2023-06-07 04:17:06.992 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:17:07.084 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@25bc0606
+2023-06-07 04:17:07.086 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:17:07.551 [vert.x-eventloop-thread-0] INFO  ua.sergienko.service.RouterService - Rest server successfully started on port 8393
+2023-06-07 04:47:48.666 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:47:48.769 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:47:48.772 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:48:14.301 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:48:14.403 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:48:14.406 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:48:44.539 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:48:44.639 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:48:44.642 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:49:12.380 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:49:12.476 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:49:12.479 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:49:53.852 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:49:53.955 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:49:53.959 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:50:19.135 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:50:19.250 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:50:19.253 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:51:18.786 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:51:18.891 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:51:18.894 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:51:45.563 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:51:45.663 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:51:45.666 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:52:40.847 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:52:40.949 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:52:40.951 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:53:42.325 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:53:42.426 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:53:42.429 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:54:13.785 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:54:13.888 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:54:13.891 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:54:14.343 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 04:54:30.598 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 04:54:30.703 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 04:54:30.707 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 04:54:31.231 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:23:22.201 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:23:22.297 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 05:23:22.300 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:23:22.751 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:23:35.854 [vert.x-eventloop-thread-0] ERROR io.vertx.core.impl.ContextBase - Unhandled exception
+java.lang.NullPointerException: Cannot invoke "io.vertx.jdbcclient.JDBCPool.withConnection(java.util.function.Function)" because "this.pool" is null
+	at ua.sergienko.verticle.JdbcVerticle.findUser(JdbcVerticle.java:39)
+	at ua.sergienko.verticle.JdbcVerticle.authUser(JdbcVerticle.java:26)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 05:24:05.847 [vert.x-eventloop-thread-1] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.1, repliedAddress: jdbc.auth.user
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:76)
+	at io.vertx.core.eventbus.impl.ReplyHandler.handle(ReplyHandler.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:948)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:937)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 05:24:13.941 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:24:14.056 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 05:24:14.059 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:24:14.588 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:25:43.769 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:25:43.878 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 05:25:43.881 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:25:44.394 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:32:41.917 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:32:42.017 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 05:32:42.020 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:32:42.465 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:39:25.507 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:39:25.617 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 05:39:25.619 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:39:26.135 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:39:34.955 [vert.x-eventloop-thread-1] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=575) Duplicate entry '102453992048376596587' for key 'PRIMARY'
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.verticle.JdbcVerticle.lambda$4(JdbcVerticle.java:34)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 05:40:24.426 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:40:24.542 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 05:40:24.544 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:40:25.139 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:40:33.155 [vert.x-eventloop-thread-1] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=585) Duplicate entry '102453992048376596587' for key 'PRIMARY'
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.verticle.JdbcVerticle.lambda$4(JdbcVerticle.java:34)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 05:42:38.651 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:42:38.756 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5d1659ea
+2023-06-07 05:42:38.758 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:42:39.279 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:42:44.194 [vert.x-eventloop-thread-1] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=595) Duplicate entry '102453992048376596587' for key 'PRIMARY'
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.verticle.JdbcVerticle.lambda$4(JdbcVerticle.java:36)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 05:43:14.817 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:43:14.915 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5d1659ea
+2023-06-07 05:43:14.918 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:43:15.415 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:43:23.376 [vert.x-eventloop-thread-1] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=605) Duplicate entry '102453992048376596587' for key 'PRIMARY'
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.verticle.JdbcVerticle.lambda$4(JdbcVerticle.java:36)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 05:43:37.882 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:43:37.988 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 05:43:37.991 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:43:38.548 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:43:58.438 [vert.x-eventloop-thread-1] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=615) Duplicate entry '102453992048376596587' for key 'PRIMARY'
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.verticle.JdbcVerticle.lambda$4(JdbcVerticle.java:36)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 05:45:57.111 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:45:57.213 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 05:45:57.216 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:45:57.719 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 05:46:08.370 [vert.x-eventloop-thread-1] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=624) Duplicate entry '102453992048376596587' for key 'PRIMARY'
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.verticle.JdbcVerticle.lambda$4(JdbcVerticle.java:36)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-07 05:54:49.542 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 05:54:49.638 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5d1659ea
+2023-06-07 05:54:49.641 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 05:54:50.174 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 06:08:36.583 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 06:08:36.682 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5d1659ea
+2023-06-07 06:08:36.685 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 06:08:37.136 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 06:12:13.080 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-07 06:12:13.174 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@793138bd
+2023-06-07 06:12:13.177 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-07 06:12:13.674 [vert.x-eventloop-thread-1] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-07 16:23:05.975 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h38m22s659ms822µs500ns).

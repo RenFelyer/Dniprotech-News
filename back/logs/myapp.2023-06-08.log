@@ -1,0 +1,4 @@
+2023-06-08 08:23:40.082 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-08 08:23:40.236 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@463b4ac8
+2023-06-08 08:23:40.240 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-08 08:23:40.734 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393

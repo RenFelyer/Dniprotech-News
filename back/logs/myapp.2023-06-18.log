@@ -1,0 +1,48 @@
+2023-06-18 10:32:06.343 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h20m47s137ms526µs100ns).
+2023-06-18 13:04:47.445 [vert.x-eventloop-thread-4] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: The table could not be created
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.verticle.jdbc.CommunitiesVerticle.lambda$17(CommunitiesVerticle.java:139)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FailedFuture.addListener(FailedFuture.java:98)
+	at io.vertx.core.impl.future.Composition.onFailure(Composition.java:55)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-18 13:05:40.741 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-18 13:05:40.866 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@a4add54
+2023-06-18 13:05:40.869 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-18 13:05:41.698 [vert.x-eventloop-thread-4] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-18 15:00:02.020 [vert.x-eventloop-thread-4] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-18 15:00:02.026 [vert.x-eventloop-thread-4] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-18 22:47:41.516 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393
+2023-06-18 22:48:33.693 [vert.x-eventloop-thread-0] INFO  ua.sergienko.verticle.RestVerticle - Rest server successfully started on port 8393

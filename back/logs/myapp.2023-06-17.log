@@ -1,0 +1,643 @@
+2023-06-17 10:02:13.272 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d1h22m27s916ms921µs100ns).
+2023-06-17 11:57:07.139 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 11:57:07.265 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 11:57:07.268 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 11:57:08.123 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 11:57:16.029 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 11:57:16.063 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 11:59:58.183 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.IllegalStateException: Invalid format for JWT
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:189)
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:177)
+	at io.vertx.ext.auth.jwt.impl.JWTAuthProviderImpl.authenticate(JWTAuthProviderImpl.java:158)
+	at ua.sergienko.service.ServerService.authJwt(ServerService.java:79)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:246)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:41)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:68)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:37)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.http.impl.Http2ServerRequest.dispatch(Http2ServerRequest.java:108)
+	at io.vertx.core.http.impl.Http2ServerStream.onHeaders(Http2ServerStream.java:111)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:171)
+	at io.vertx.core.http.impl.Http2ConnectionBase.onHeadersRead(Http2ConnectionBase.java:208)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:44)
+	at io.netty.handler.codec.http2.Http2FrameListenerDecorator.onHeadersRead(Http2FrameListenerDecorator.java:48)
+	at io.netty.handler.codec.http2.Http2EmptyDataFrameListener.onHeadersRead(Http2EmptyDataFrameListener.java:63)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onHeadersRead(DefaultHttp2ConnectionDecoder.java:409)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader$1.processFragment(DefaultHttp2FrameReader.java:450)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readHeadersFrame(DefaultHttp2FrameReader.java:457)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:253)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:159)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:173)
+	at io.netty.handler.codec.http2.DecoratingHttp2ConnectionDecoder.decodeFrame(DecoratingHttp2ConnectionDecoder.java:63)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:393)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:453)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.vertx.core.http.impl.VertxHttp2ConnectionHandler.channelRead(VertxHttp2ConnectionHandler.java:416)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-17 12:00:10.459 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 12:00:10.587 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 12:00:10.591 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 12:00:11.414 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 12:00:15.120 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.IllegalStateException: Invalid format for JWT
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:189)
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:177)
+	at io.vertx.ext.auth.jwt.impl.JWTAuthProviderImpl.authenticate(JWTAuthProviderImpl.java:158)
+	at ua.sergienko.service.ServerService.authJwt(ServerService.java:79)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:246)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:41)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:68)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:37)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.http.impl.Http2ServerRequest.dispatch(Http2ServerRequest.java:108)
+	at io.vertx.core.http.impl.Http2ServerStream.onHeaders(Http2ServerStream.java:111)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:171)
+	at io.vertx.core.http.impl.Http2ConnectionBase.onHeadersRead(Http2ConnectionBase.java:208)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:44)
+	at io.netty.handler.codec.http2.Http2FrameListenerDecorator.onHeadersRead(Http2FrameListenerDecorator.java:48)
+	at io.netty.handler.codec.http2.Http2EmptyDataFrameListener.onHeadersRead(Http2EmptyDataFrameListener.java:63)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onHeadersRead(DefaultHttp2ConnectionDecoder.java:409)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader$1.processFragment(DefaultHttp2FrameReader.java:450)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readHeadersFrame(DefaultHttp2FrameReader.java:457)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:253)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:159)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:173)
+	at io.netty.handler.codec.http2.DecoratingHttp2ConnectionDecoder.decodeFrame(DecoratingHttp2ConnectionDecoder.java:63)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:393)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:453)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.vertx.core.http.impl.VertxHttp2ConnectionHandler.channelRead(VertxHttp2ConnectionHandler.java:416)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-17 12:00:49.855 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.IllegalStateException: Invalid format for JWT
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:189)
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:177)
+	at io.vertx.ext.auth.jwt.impl.JWTAuthProviderImpl.authenticate(JWTAuthProviderImpl.java:158)
+	at ua.sergienko.service.ServerService.authJwt(ServerService.java:79)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:246)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:41)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:68)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:37)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.http.impl.Http2ServerRequest.dispatch(Http2ServerRequest.java:108)
+	at io.vertx.core.http.impl.Http2ServerStream.onHeaders(Http2ServerStream.java:111)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:171)
+	at io.vertx.core.http.impl.Http2ConnectionBase.onHeadersRead(Http2ConnectionBase.java:208)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:44)
+	at io.netty.handler.codec.http2.Http2FrameListenerDecorator.onHeadersRead(Http2FrameListenerDecorator.java:48)
+	at io.netty.handler.codec.http2.Http2EmptyDataFrameListener.onHeadersRead(Http2EmptyDataFrameListener.java:63)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onHeadersRead(DefaultHttp2ConnectionDecoder.java:409)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader$1.processFragment(DefaultHttp2FrameReader.java:450)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readHeadersFrame(DefaultHttp2FrameReader.java:457)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:253)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:159)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:173)
+	at io.netty.handler.codec.http2.DecoratingHttp2ConnectionDecoder.decodeFrame(DecoratingHttp2ConnectionDecoder.java:63)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:393)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:453)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.vertx.core.http.impl.VertxHttp2ConnectionHandler.channelRead(VertxHttp2ConnectionHandler.java:416)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-17 12:01:08.526 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.IllegalStateException: Invalid format for JWT
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:189)
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:177)
+	at io.vertx.ext.auth.jwt.impl.JWTAuthProviderImpl.authenticate(JWTAuthProviderImpl.java:158)
+	at ua.sergienko.service.ServerService.authJwt(ServerService.java:79)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:246)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:41)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:68)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:37)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.http.impl.Http2ServerRequest.dispatch(Http2ServerRequest.java:108)
+	at io.vertx.core.http.impl.Http2ServerStream.onHeaders(Http2ServerStream.java:111)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:171)
+	at io.vertx.core.http.impl.Http2ConnectionBase.onHeadersRead(Http2ConnectionBase.java:208)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:44)
+	at io.netty.handler.codec.http2.Http2FrameListenerDecorator.onHeadersRead(Http2FrameListenerDecorator.java:48)
+	at io.netty.handler.codec.http2.Http2EmptyDataFrameListener.onHeadersRead(Http2EmptyDataFrameListener.java:63)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onHeadersRead(DefaultHttp2ConnectionDecoder.java:409)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader$1.processFragment(DefaultHttp2FrameReader.java:450)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readHeadersFrame(DefaultHttp2FrameReader.java:457)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:253)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:159)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:173)
+	at io.netty.handler.codec.http2.DecoratingHttp2ConnectionDecoder.decodeFrame(DecoratingHttp2ConnectionDecoder.java:63)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:393)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:453)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.vertx.core.http.impl.VertxHttp2ConnectionHandler.channelRead(VertxHttp2ConnectionHandler.java:416)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-17 12:03:30.493 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 12:03:30.621 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 12:03:30.623 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 12:03:31.444 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 12:32:35.962 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 12:32:36.101 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 12:32:36.104 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 12:32:37.102 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 12:34:28.609 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 15:40:01.120 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The table could not be created
+2023-06-17 15:41:16.298 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The table could not be created
+2023-06-17 15:41:17.519 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The table could not be created
+2023-06-17 15:41:23.855 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The table could not be created
+2023-06-17 15:42:18.779 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The table could not be created
+2023-06-17 15:42:19.726 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The table could not be created
+2023-06-17 15:42:53.280 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The table could not be created
+2023-06-17 15:43:02.116 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The table could not be created
+2023-06-17 16:17:31.073 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 16:17:31.194 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 16:17:31.196 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 16:17:32.086 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 16:17:59.835 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 16:24:34.058 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: (conn=910) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.verticle.jdbc.UserVerticle.lambda$20(UserVerticle.java:115)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Composition$1.onFailure(Composition.java:66)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryFail(QueryResultBuilder.java:94)
+	at io.vertx.core.Promise.fail(Promise.java:89)
+	at io.vertx.core.Promise.handle(Promise.java:53)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onFailure(FutureImpl.java:153)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.Mapping.onFailure(Mapping.java:45)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitFailure$1(FutureBase.java:69)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-17 16:25:09.171 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 16:25:09.298 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 16:25:09.302 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 16:25:10.351 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 16:25:21.570 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.IllegalArgumentException: No message codec for type: class io.vertx.core.eventbus.impl.MessageImpl
+	at io.vertx.core.eventbus.impl.CodecManager.lookupCodec(CodecManager.java:119)
+	at io.vertx.core.eventbus.impl.EventBusImpl.createMessage(EventBusImpl.java:254)
+	at io.vertx.core.eventbus.impl.EventBusImpl.request(EventBusImpl.java:125)
+	at io.vertx.core.eventbus.EventBus.request(EventBus.java:92)
+	at ua.sergienko.verticle.RestVerticle.lambda$13(RestVerticle.java:87)
+	at io.vertx.core.impl.future.Composition.onSuccess(Composition.java:38)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.vertx.core.impl.EventLoopContext.execute(EventLoopContext.java:86)
+	at io.vertx.core.impl.DuplicatedContext.execute(DuplicatedContext.java:163)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:51)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.eventbus.impl.ReplyHandler.dispatch(ReplyHandler.java:97)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.execute(HandlerRegistration.java:137)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.next(DeliveryContextBase.java:72)
+	at io.vertx.core.eventbus.impl.DeliveryContextBase.dispatch(DeliveryContextBase.java:43)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:98)
+	at io.vertx.core.eventbus.impl.ReplyHandler.doReceive(ReplyHandler.java:81)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:49)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-17 17:12:54.191 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 17:12:54.335 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 17:12:54.341 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 17:12:55.376 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 17:44:46.212 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.file.FileSystemException: Unable to read file at path 'images/6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg'
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1070)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1063)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1174)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1156)
+	at io.vertx.core.impl.ContextBase.lambda$null$0(ContextBase.java:137)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.impl.ContextBase.lambda$executeBlocking$1(ContextBase.java:135)
+	at io.vertx.core.impl.TaskQueue.run(TaskQueue.java:76)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.nio.file.NoSuchFileException: images\6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3287)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1067)
+	... 11 common frames omitted
+2023-06-17 17:44:46.374 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.file.FileSystemException: Unable to read file at path 'images/6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg'
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1070)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1063)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1174)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1156)
+	at io.vertx.core.impl.ContextBase.lambda$null$0(ContextBase.java:137)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.impl.ContextBase.lambda$executeBlocking$1(ContextBase.java:135)
+	at io.vertx.core.impl.TaskQueue.run(TaskQueue.java:76)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.nio.file.NoSuchFileException: images\6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3287)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1067)
+	... 11 common frames omitted
+2023-06-17 17:44:56.108 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.file.FileSystemException: Unable to read file at path 'images/6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg'
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1070)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1063)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1174)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1156)
+	at io.vertx.core.impl.ContextBase.lambda$null$0(ContextBase.java:137)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.impl.ContextBase.lambda$executeBlocking$1(ContextBase.java:135)
+	at io.vertx.core.impl.TaskQueue.run(TaskQueue.java:76)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.nio.file.NoSuchFileException: images\6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3287)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1067)
+	... 11 common frames omitted
+2023-06-17 17:44:56.292 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.file.FileSystemException: Unable to read file at path 'images/6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg'
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1070)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1063)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1174)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1156)
+	at io.vertx.core.impl.ContextBase.lambda$null$0(ContextBase.java:137)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.impl.ContextBase.lambda$executeBlocking$1(ContextBase.java:135)
+	at io.vertx.core.impl.TaskQueue.run(TaskQueue.java:76)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.nio.file.NoSuchFileException: images\6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3287)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1067)
+	... 11 common frames omitted
+2023-06-17 17:45:06.436 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.file.FileSystemException: Unable to read file at path 'images/6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg'
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1070)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1063)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1174)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1156)
+	at io.vertx.core.impl.ContextBase.lambda$null$0(ContextBase.java:137)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.impl.ContextBase.lambda$executeBlocking$1(ContextBase.java:135)
+	at io.vertx.core.impl.TaskQueue.run(TaskQueue.java:76)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.nio.file.NoSuchFileException: images\6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3287)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1067)
+	... 11 common frames omitted
+2023-06-17 17:45:26.289 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.file.FileSystemException: Unable to read file at path 'images/6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg'
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1070)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1063)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1174)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1156)
+	at io.vertx.core.impl.ContextBase.lambda$null$0(ContextBase.java:137)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.impl.ContextBase.lambda$executeBlocking$1(ContextBase.java:135)
+	at io.vertx.core.impl.TaskQueue.run(TaskQueue.java:76)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.nio.file.NoSuchFileException: images\6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3287)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1067)
+	... 11 common frames omitted
+2023-06-17 17:45:29.598 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.file.FileSystemException: Unable to read file at path 'images/6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg'
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1070)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1063)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1174)
+	at io.vertx.core.file.impl.FileSystemImpl$BlockingAction.handle(FileSystemImpl.java:1156)
+	at io.vertx.core.impl.ContextBase.lambda$null$0(ContextBase.java:137)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:264)
+	at io.vertx.core.impl.ContextBase.lambda$executeBlocking$1(ContextBase.java:135)
+	at io.vertx.core.impl.TaskQueue.run(TaskQueue.java:76)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.nio.file.NoSuchFileException: images\6ec62b5d-2693-4085-ab80-dc3154c3dc09.jpg
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3287)
+	at io.vertx.core.file.impl.FileSystemImpl$16.perform(FileSystemImpl.java:1067)
+	... 11 common frames omitted
+2023-06-17 17:46:51.853 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 17:46:51.985 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 17:46:51.988 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 17:46:52.789 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 19:41:16.896 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 19:41:17.013 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 19:41:17.016 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 19:41:17.834 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 19:41:29.143 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 19:41:29.145 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 19:49:10.811 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 19:49:10.928 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 19:49:10.931 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 19:49:11.757 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 20:38:48.591 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 20:38:48.715 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 20:38:48.718 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 20:38:49.534 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 20:47:39.973 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 20:47:40.099 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 20:47:40.102 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 20:47:40.912 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 20:50:16.001 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+java.lang.IllegalStateException: Invalid format for JWT
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:189)
+	at io.vertx.ext.auth.impl.jose.JWT.decode(JWT.java:177)
+	at io.vertx.ext.auth.jwt.impl.JWTAuthProviderImpl.authenticate(JWTAuthProviderImpl.java:158)
+	at ua.sergienko.service.ServerService.authJwt(ServerService.java:80)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:246)
+	at io.vertx.ext.web.handler.impl.CorsHandlerImpl.handle(CorsHandlerImpl.java:41)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1284)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:68)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:37)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:158)
+	at io.vertx.core.http.impl.Http2ServerRequest.dispatch(Http2ServerRequest.java:108)
+	at io.vertx.core.http.impl.Http2ServerStream.onHeaders(Http2ServerStream.java:111)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:171)
+	at io.vertx.core.http.impl.Http2ConnectionBase.onHeadersRead(Http2ConnectionBase.java:208)
+	at io.vertx.core.http.impl.Http2ServerConnection.onHeadersRead(Http2ServerConnection.java:44)
+	at io.netty.handler.codec.http2.Http2FrameListenerDecorator.onHeadersRead(Http2FrameListenerDecorator.java:48)
+	at io.netty.handler.codec.http2.Http2EmptyDataFrameListener.onHeadersRead(Http2EmptyDataFrameListener.java:63)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onHeadersRead(DefaultHttp2ConnectionDecoder.java:409)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader$1.processFragment(DefaultHttp2FrameReader.java:450)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readHeadersFrame(DefaultHttp2FrameReader.java:457)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:253)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:159)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:173)
+	at io.netty.handler.codec.http2.DecoratingHttp2ConnectionDecoder.decodeFrame(DecoratingHttp2ConnectionDecoder.java:63)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:393)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:453)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.vertx.core.http.impl.VertxHttp2ConnectionHandler.channelRead(VertxHttp2ConnectionHandler.java:416)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-06-17 20:50:28.545 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 20:50:28.663 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 20:50:28.666 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 20:50:29.488 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 20:50:34.484 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 20:50:34.487 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 21:23:40.943 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 21:23:40.948 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 21:38:40.243 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 21:38:40.365 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 21:38:40.368 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 21:38:41.213 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 21:39:06.467 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 21:39:06.469 [vert.x-eventloop-thread-3] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 21:44:22.982 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 21:44:23.111 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@363a52f
+2023-06-17 21:44:23.114 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 21:44:23.969 [vert.x-eventloop-thread-3] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 21:56:00.584 [vert.x-eventloop-thread-3] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.impl.NoStackTraceThrowable: The table could not be created
+2023-06-17 22:07:18.976 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-17 22:07:19.110 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@a4add54
+2023-06-17 22:07:19.115 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-17 22:07:20.149 [vert.x-eventloop-thread-4] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-17 22:07:46.025 [vert.x-eventloop-thread-4] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-17 22:07:46.743 [vert.x-eventloop-thread-4] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException

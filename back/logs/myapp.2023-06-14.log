@@ -1,0 +1,58 @@
+2023-06-14 21:07:20.883 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-14 21:07:21.072 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6ccdb29f
+2023-06-14 21:07:21.076 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-14 21:07:21.934 [vert.x-eventloop-thread-1] ERROR ua.sergienko.service.ServerService - io.vertx.core.file.FileSystemException: Unable to read file at path 'C:\Certbot\live\yggdrasil.website\fullchain.pem'
+2023-06-14 21:09:06.367 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-14 21:09:06.498 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@10a9d961
+2023-06-14 21:09:06.502 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-14 21:09:07.074 [vert.x-eventloop-thread-1] ERROR ua.sergienko.service.ServerService - io.vertx.core.file.FileSystemException: Unable to read file at path 'C:\Certbot\live\yggdrasil.website\fullchain.pem'
+2023-06-14 21:09:14.668 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-14 21:09:14.792 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@10a9d961
+2023-06-14 21:09:14.795 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-14 21:09:15.375 [vert.x-eventloop-thread-1] ERROR ua.sergienko.service.ServerService - io.vertx.core.file.FileSystemException: Unable to read file at path 'C:\Certbot\live\yggdrasil.website\fullchain.pem'
+2023-06-14 21:11:20.206 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-14 21:11:20.325 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@10a9d961
+2023-06-14 21:11:20.328 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-14 21:11:21.153 [vert.x-eventloop-thread-1] INFO  ua.sergienko.service.ServerService - Rest server successfully started on port 8393
+2023-06-14 21:23:19.144 [vert.x-eventloop-thread-1] WARN  ua.sergienko.service.ServerService - java.nio.channels.ClosedChannelException
+2023-06-14 21:34:53.090 [vert.x-eventloop-thread-1] ERROR io.vertx.ext.web.RoutingContext - Unhandled exception in router
+io.vertx.core.eventbus.ReplyException: user is not found
+	at io.vertx.core.eventbus.Message.fail(Message.java:141)
+	at ua.sergienko.verticle.jdbc.UserVerticle.lambda$25(UserVerticle.java:109)
+	at io.vertx.core.impl.future.FutureImpl$2.onFailure(FutureImpl.java:117)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onFailure(FutureImpl.java:268)
+	at io.vertx.core.impl.future.FutureBase.emitFailure(FutureBase.java:75)
+	at io.vertx.core.impl.future.FutureImpl.tryFail(FutureImpl.java:230)
+	at io.vertx.core.impl.future.PromiseImpl.tryFail(PromiseImpl.java:23)
+	at io.vertx.core.Promise.tryFail(Promise.java:140)
+	at io.vertx.core.Promise.fail(Promise.java:101)
+	at ua.sergienko.verticle.jdbc.UserVerticle.lambda$30(UserVerticle.java:126)
+	at java.base/java.util.Optional.ifPresentOrElse(Optional.java:198)
+	at ua.sergienko.verticle.jdbc.UserVerticle.lambda$27(UserVerticle.java:126)
+	at io.vertx.core.impl.future.FutureImpl$1.onSuccess(FutureImpl.java:91)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Composition$1.onSuccess(Composition.java:62)
+	at io.vertx.core.impl.future.FutureImpl$ListenerArray.onSuccess(FutureImpl.java:262)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:88)
+	at io.vertx.sqlclient.impl.QueryResultBuilder.tryComplete(QueryResultBuilder.java:32)
+	at io.vertx.core.Promise.complete(Promise.java:66)
+	at io.vertx.core.Promise.handle(Promise.java:51)
+	at io.vertx.core.Promise.handle(Promise.java:29)
+	at io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:141)
+	at io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:60)
+	at io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:211)
+	at io.vertx.core.impl.future.Mapping.onSuccess(Mapping.java:40)
+	at io.vertx.core.impl.future.FutureBase.lambda$emitSuccess$0(FutureBase.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
